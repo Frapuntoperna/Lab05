@@ -101,7 +101,7 @@ def main(page: ft.Page):
         aggiorna_lista_strumenti()
         page.update()
 
-    bottone_aggiungi_strumento = ft.ElevatedButton('Aggiungi strumento',
+    bottone_aggiungi_strumento=ft.ElevatedButton('Aggiungi strumento',
                                            on_click=aggiungi_nuovo_strumento
                                            )
 
